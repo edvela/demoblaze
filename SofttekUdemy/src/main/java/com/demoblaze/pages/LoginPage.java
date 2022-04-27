@@ -17,7 +17,6 @@ public class LoginPage extends BasePageObject {
 	}
 	
 	public LogedHomePage login(String username, String password) {
-		System.out.println("login username and password");
 		type(username, usernameInputLocator);
 		type(password, passwordInputLocator);
 		click(submitButtonLocator);	
@@ -25,11 +24,10 @@ public class LoginPage extends BasePageObject {
 	}
 	
 	public String getAlertText() {
-		System.out.println("iniciando alerts");
 		wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.alertIsPresent());
 		Alert alert = driver.switchTo().alert();
-		System.out.println(alert.getText());
+		System.out.println("Mensaje de error esperado: " + alert.getText());
 		return alert.getText();
 	}
 

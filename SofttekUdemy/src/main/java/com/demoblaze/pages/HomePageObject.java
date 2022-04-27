@@ -16,14 +16,11 @@ public class HomePageObject extends BasePageObject{
 	}
 	
 	public void openPage() {
-		System.out.println("Opening page " + url);
 		openUrl(url);
-		System.out.println("page opened!");		
 	}
 	
 	public LoginPage clickLoginLink() {
 		click(loginLink);
-		System.out.println("clicked!");
 		return new LoginPage(driver);
 	}
 

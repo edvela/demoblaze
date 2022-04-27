@@ -9,10 +9,9 @@ import com.demoblaze.pages.LogedHomePage;
 import com.demoblaze.pages.LoginPage;
 
 public class NegativeLoginTest extends Utilities {
-
 	@Test(dataProvider = "invalidUsers")
 	public void loginTest(int id, String username, String password, String expectedMsg) {
-		System.out.println("Iniciando sesión con el id " + id);
+		System.out.println("Iniciando sesión con usuarios inválidos, id "+id);
 		HomePageObject homePageObject = new HomePageObject(driver);
 		homePageObject.openPage();
 		LoginPage loginPage = homePageObject.clickLoginLink();
