@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-27T16:16:30 CDT" name="Suite" finished-at="2022-04-27T16:18:50 CDT" duration-ms="139287">
+  <suite started-at="2022-04-27T17:27:14 CDT" name="Suite" finished-at="2022-04-27T17:29:04 CDT" duration-ms="109618">
     <groups>
     </groups>
-    <test started-at="2022-04-27T16:16:30 CDT" name="Test" finished-at="2022-04-27T16:18:50 CDT" duration-ms="139287">
+    <test started-at="2022-04-27T17:27:14 CDT" name="Test" finished-at="2022-04-27T17:29:04 CDT" duration-ms="109618">
       <class name="com.demoblaze.login.PositiveLoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T16:16:31 CDT" name="setUp" finished-at="2022-04-27T16:16:32 CDT" duration-ms="1094" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T17:27:14 CDT" name="setUp" finished-at="2022-04-27T17:27:15 CDT" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T16:16:32 CDT" name="loginTest" data-provider="validUsers" finished-at="2022-04-27T16:16:41 CDT" duration-ms="9515" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T17:27:15 CDT" name="loginTest" data-provider="validUsers" finished-at="2022-04-27T17:27:26 CDT" duration-ms="10345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,17 +32,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T16:16:41 CDT" name="tearDown" finished-at="2022-04-27T16:16:41 CDT" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.PositiveLoginTests@1d119efb]" started-at="2022-04-27T17:27:26 CDT" name="tearDown" finished-at="2022-04-27T17:27:26 CDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoblaze.login.PositiveLoginTests -->
       <class name="com.demoblaze.login.NegativeLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:16:41 CDT" name="setUp" finished-at="2022-04-27T16:16:42 CDT" duration-ms="728" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:26 CDT" name="setUp" finished-at="2022-04-27T17:27:27 CDT" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:16:42 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T16:17:07 CDT" duration-ms="24673" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:27 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T17:27:35 CDT" duration-ms="8731" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:07 CDT" name="tearDown" finished-at="2022-04-27T16:17:07 CDT" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:35 CDT" name="tearDown" finished-at="2022-04-27T17:27:36 CDT" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:07 CDT" name="setUp" finished-at="2022-04-27T16:17:08 CDT" duration-ms="776" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:36 CDT" name="setUp" finished-at="2022-04-27T17:27:36 CDT" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:08 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T16:17:32 CDT" duration-ms="24669" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:36 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T17:27:45 CDT" duration-ms="8862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,15 +102,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:32 CDT" name="tearDown" finished-at="2022-04-27T16:17:32 CDT" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:45 CDT" name="tearDown" finished-at="2022-04-27T17:27:45 CDT" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:32 CDT" name="setUp" finished-at="2022-04-27T16:17:33 CDT" duration-ms="813" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:45 CDT" name="setUp" finished-at="2022-04-27T17:27:46 CDT" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:33 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T16:17:58 CDT" duration-ms="24591" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:27:46 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T17:28:11 CDT" duration-ms="24714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:58 CDT" name="tearDown" finished-at="2022-04-27T16:17:58 CDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:11 CDT" name="tearDown" finished-at="2022-04-27T17:28:11 CDT" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:58 CDT" name="setUp" finished-at="2022-04-27T16:17:59 CDT" duration-ms="765" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:11 CDT" name="setUp" finished-at="2022-04-27T17:28:12 CDT" duration-ms="848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:17:59 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T16:18:24 CDT" duration-ms="25191" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:12 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T17:28:37 CDT" duration-ms="25300" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +170,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:18:24 CDT" name="tearDown" finished-at="2022-04-27T16:18:24 CDT" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:37 CDT" name="tearDown" finished-at="2022-04-27T17:28:37 CDT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:18:24 CDT" name="setUp" finished-at="2022-04-27T16:18:25 CDT" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:37 CDT" name="setUp" finished-at="2022-04-27T17:28:38 CDT" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:18:25 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T16:18:49 CDT" duration-ms="24611" status="PASS">
+        <test-method signature="loginTest(int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:28:38 CDT" name="loginTest" data-provider="invalidUsers" finished-at="2022-04-27T17:29:03 CDT" duration-ms="25375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T16:18:49 CDT" name="tearDown" finished-at="2022-04-27T16:18:50 CDT" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.login.NegativeLoginTest@1700915]" started-at="2022-04-27T17:29:03 CDT" name="tearDown" finished-at="2022-04-27T17:29:04 CDT" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
